@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0
+}
+.ad{
+    width:100%;
+    height:70px;
+    position:relative
+}
+.ad p{
+    right:3%;
+    bottom:5%;
+    position:absolute
+}
+#admin{
+    width:3%;
+    border-radius:50%;
+    float:right;
+    margin:5px 40px 0 0
+}
+body{
+    font-family:sans-serif
+}
+#seach{
+    line-height:40px;
+    margin-left:5%;
+    position:absolute;
+    z-index:9
+}
+#menu{
+    background:#1f568b
+}
+#menu a{
+    text-decoration:none;
+    color:#fff;
+    display:block
+}
+#menu a:hover{
+    background:#f1f1f1;
+    color:#333
+}
+.album{
+    width:75%
+}
+.hinhanh{
+    width:90%;
+    position:relative
+}
+.hinhanh .anh{
+    border:2px solid #00f;
+    position:relative;
+    width:30%;
+    margin:2% 1% 2% 1%;
+    display:inline-flex
+}
+.anh img{
+    max-width:100%;
+    transition:.5s
+}
+.anh p{
+    position:absolute;
+    bottom:0
+}
+.anh img:hover{
+    opacity:.3
+}
+.vd{
+    width:25%;
+    right:-5%;
+    top:10%;
+    position:absolute
+}
+video{
+    max-width:100%
+}
+
+.nav{
+    display:flex;
+    justify-content:flex-end
+}
+.menu-item,.drop li{
+    background-color: powderblue;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    display:flex;
+    width:100px;
+    height:40px;
+    list-style:none;
+    cursor: pointer;
+    
+}
+
+.menu-item:last-child{
+    background-color:orange
+}
+.item-list-list{
+    display: none;
+    position: absolute;
+    z-index: 1999;
+}
+.list-item{
+    list-style:none
+}
+.item-list:hover .item-list-list{
+    display:block
+}
+.menu-item:hover{
+    background-color:#4169e1
+}
